@@ -1,0 +1,21 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai-Midnight (SL).tmTheme",
+	"debug_enable": true,
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_font_big": true,
+	"sidebar_large": false,
+	"sidebar_medium": true,
+	"sidebar_xlarge": true,
+	"static_modified_tab": true,
+	"tab_size": 2,
+	"tabs_border": true,
+	"theme": "preap.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

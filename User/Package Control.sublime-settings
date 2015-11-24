@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"AutoItScript",
+		"BracketHighlighter",
+		"CodeFormatter",
+		"Color Highlighter",
+		"ColorHelper",
+		"ColorSchemeSelector",
+		"Colorsublime",
+		"Compass",
+		"EasyMotion",
+		"Emmet",
+		"ExportHtml",
+		"FileDiffs",
+		"Gist",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"HTMLAttributes",
+		"HTMLBeautify",
+		"Http Requester",
+		"Hugofy",
+		"Markdown Preview",
+		"Package Control",
+		"Placeholders",
+		"PlainTasks",
+		"PowerShell",
+		"Preap",
+		"Restart",
+		"Schemr",
+		"SCSS",
+		"SFTP",
+		"SideBarEnhancements",
+		"StringEncode",
+		"SublimeLinter",
+		"Theme - Soda",
+		"Themr",
+		"Tomorrow Color Schemes",
+		"TrailingSpaces"
+	]
+}
