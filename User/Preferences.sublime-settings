@@ -9,6 +9,7 @@
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Frontier (SL).tmTheme",
 	"copy_with_empty_selection": false,
+  "atomic_save": false,
 	"detect_indentation": false,
 	"find_selected_text": true,
 	"folder_exclude_patterns":
