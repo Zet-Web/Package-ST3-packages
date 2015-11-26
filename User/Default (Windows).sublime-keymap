@@ -27,5 +27,131 @@
             "target": "browser",
             "parser":"markdown"
         }
+    },
+    {
+        "keys": [":"],
+        "command": "insert_snippet", "args": {"contents": ":$0"},
+        "context": [
+            {"match_all": true, "operand": "^(?:\t| |\\}|$)", "key": "following_text", "operator": "regex_contains"},
+            {"match_all": true, "operand": true, "key": "selection_empty", "operator": "equal"},
+            {"match_all": true, "operand": "source.css - meta.selector.css", "key": "selector", "operator": "equal"},
+            {"operand": true, "key": "setting.auto_match_enabled", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["alt+f12"],
+        "command": "side_bar_open_in_browser", "args": {"paths": [], "browser": "", "type": "production"}
+    },
+    {
+        "keys": ["alt+shift+x"],
+        "command": "bh_key", "args": {"plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"}, "lines": true}
+    },
+    {
+        "keys": ["ctrl+["],
+        "command": "indent"
+    },
+    {
+        "keys": ["ctrl+]"],
+        "command": "unindent"
+    },
+    {
+        "keys": ["ctrl+alt+k"],
+        "command": "bh_key", "args": {"plugin": {"args": {"direction": "right"}, "type": ["cfml", "html", "angle"], "command": "bh_modules.tagattrselect"}}
+    },
+    {
+        "keys": ["ctrl+d"],
+        "command": "duplicate_line"
+    },
+    {
+        "keys": ["ctrl+f2"],
+        "command": "sublime_bookmark", "args": {"type": "toggle_line"}
+    },
+    {
+        "keys": ["ctrl+l"],
+        "command": "valign"
+    },
+    {
+        "keys": ["ctrl+shift+["],
+        "command": "sublime_bookmark", "args": {"type": "goto_next"}
+    },
+    {
+        "keys": ["ctrl+shift+`"],
+        "command": "show_panel", "args": {"panel": "output.exec"}
+    },
+    {
+        "keys": ["ctrl+shift+b"],
+        "command": "toggle_side_bar"
+    },
+    {
+        "keys": ["ctrl+shift+d"],
+        "command": "find_under_expand"
+    },
+    {
+        "keys": ["ctrl+shift+f2"],
+        "command": "sublime_bookmark", "args": {"type": "add"}
+    },
+    {
+        "keys": ["ctrl+shift+left"],
+        "command": "move", "args": {"forward": false, "extend": true, "by": "words"},
+        "km_keys": ["ctrl+shift+left"],
+        "km_source": "Packages/Default/Default (Windows).sublime-keymap"
+    },
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "reveal_in_side_bar"
+    },
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "browser_refresh", "args": {"activate_browser": true, "delay": 0.5, "auto_save": true, "browser_name": "all"}
+    },
+    {
+        "keys": ["ctrl+shift+right"],
+        "command": "move", "args": {"forward": true, "extend": true, "by": "word_ends"},
+        "km_keys": ["ctrl+shift+right"],
+        "km_source": "Packages/Default/Default (Windows).sublime-keymap"
+    },
+    {
+        "keys": ["ctrl+shift+space"],
+        "command": "build", "args": {"select": true}
+    },
+    {
+        "keys": ["ctrl+t"],
+        "command": "side_bar_new_file2"
+    },
+    {
+        "keys": ["f12"],
+        "command": "side_bar_open_in_browser", "args": {"paths": [], "browser": "", "type": "testing"}
+    },
+    {
+        "keys": ["f2"],
+        "command": "side_bar_rename"
+    },
+    {
+        "keys": ["shift+f2"],
+        "command": "sublime_bookmark", "args": {"type": "goto_prev"}
+    },
+    {
+        "keys": ["tab"],
+        "command": "expand_abbreviation_by_tab",
+        "context": [
+            {"match_all": true, "operand": false, "key": "auto_complete_visible", "operator": "equal"},
+            {"match_all": true, "operand": false, "key": "has_next_field", "operator": "equal"},
+            {"match_all": true, "key": "is_abbreviation"},
+            {"match_all": true, "key": "selection_empty"},
+            {"match_all": true, "operand": "source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string", "key": "selector", "operator": "equal"},
+            {"match_all": true, "operand": "storage.type.templatetag.django", "key": "selector", "operator": "not_equal"},
+            {"match_all": true, "operand": false, "key": "setting.disable_tab_abbreviations", "operator": "equal"}
+        ]
+    },
+    {
+        "keys": ["tab"],
+        "command": "expand_abbreviation_by_tab",
+        "context": [
+            {"match_all": true, "operand": false, "key": "auto_complete_visible", "operator": "equal"},
+            {"match_all": true, "operand": false, "key": "has_next_field", "operator": "equal"},
+            {"match_all": true, "key": "is_abbreviation"},
+            {"match_all": true, "key": "selection_empty"},
+            {"match_all": true, "operand": "SCOPE_SELECTOR", "key": "selector", "operator": "equal"}
+        ]
     }
 ]
