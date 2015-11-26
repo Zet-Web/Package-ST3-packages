@@ -12,11 +12,12 @@
   "atomic_save": false,
 	"detect_indentation": false,
 	"find_selected_text": true,
-	"folder_exclude_patterns":
-	[
-		".bundle",
-		".sass-cache"
-	],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    ".sass-cache",
+    "*_files"
+  ],
 	"font_face": "Consolas",
 	"font_options":
 	[
