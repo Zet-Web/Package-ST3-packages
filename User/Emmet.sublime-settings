@@ -1,0 +1,13 @@
+{
+   "remove_html_completions": true,
+    "snippets": {
+        "css": {
+            "filters": "css",
+            "profile": "css, scss",
+            "snippets": {
+                "wid": "width:|;",
+                "widows": "widows:|;"
+            }
+        }
+    }
+}

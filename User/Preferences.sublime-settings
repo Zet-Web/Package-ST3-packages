@@ -1,8 +1,15 @@
 {
+	"always_show_minimap_viewport": true,
+	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
 	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai-Midnight (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Frontier (SL).tmTheme",
+	"copy_with_empty_selection": false,
+	"detect_indentation": false,
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
@@ -15,7 +22,7 @@
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -25,9 +32,9 @@
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
-	"reveal-on-activate": false,
+	"reveal-on-activate": true,
 	"scroll_past_end": true,
-	"scroll_speed": 0.3,
+	"scroll_speed": 0.1,
 	"show_encoding": true,
 	"show_full_path": true,
 	"sidebar_font_big": true,
