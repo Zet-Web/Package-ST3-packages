@@ -1,5 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
+	"atomic_save": false,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
@@ -9,22 +10,21 @@
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/SublimeLinter/Frontier (SL).tmTheme",
 	"copy_with_empty_selection": false,
-  "atomic_save": false,
 	"detect_indentation": false,
 	"find_selected_text": true,
-  "folder_exclude_patterns":
-  [
-    ".git",
-    ".sass-cache",
-    "*_files"
-  ],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"*_files"
+	],
 	"font_face": "Consolas",
 	"font_options":
 	[
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
